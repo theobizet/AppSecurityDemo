@@ -1,0 +1,24 @@
+# Environnements Python
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Base SQLite generee (recreee par seed.py)
+app/instance/
+
+# Secrets / config locale
+**/.env
+
+# Logs et artefacts de dev
+*.log
+app.zip
+
+# Documents source de l'exercice (gardes en local, non publies)
+*.pdf
+*.docx
+
+# IDE / OS
+**/.idea/
+.vscode/
+.DS_Store
+Thumbs.db
